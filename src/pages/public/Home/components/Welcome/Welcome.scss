@@ -1,0 +1,43 @@
+.Welcome {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .column {
+    height: 300px;
+    &-text {
+      width: 50%;
+      .body-regular {
+        font-size: 20px;
+      }
+    }
+    &-image {
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        margin-top: 30px;
+      }
+    }
+  }
+  .title {
+    margin: 20px 0;
+    color: #f2c101;
+  }
+  .body-regular {
+    // max-width: 400px;
+  }
+  @media (max-width: 768px) {
+    // display: none;
+    flex-direction: column-reverse;
+    .column {
+      width: 100%;
+      height: auto;
+    }
+    .porsche {
+      margin-top: 0 !important;
+    }
+  }
+}
+

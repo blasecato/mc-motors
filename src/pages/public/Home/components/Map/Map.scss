@@ -1,0 +1,54 @@
+.Map {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  .column {
+    &-map {
+      width: 65%;
+      div {
+        border-radius: 10px;
+      }
+    }
+    &-text {
+      width: 35%;
+      padding: 0 20px;
+      .subTitle {
+        color: #f2c101;
+        font-size: 28px;
+        font-family: "Roboto Condensed";
+        .yell {
+          font-weight: 900;
+          text-decoration: underline;
+        }
+      }
+      .item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 15px 0;
+        transition: 0.3s;
+        &:hover {
+          transform: scale(1.2);
+          margin-left: 50px;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    // display: none;
+    flex-direction: column;
+    .column {
+      width: 100%;
+      &-text {
+        padding: 0;
+      }
+      &-map {
+        div {
+          max-height: 280px !important;
+        }
+      }
+    }
+  }
+}
+

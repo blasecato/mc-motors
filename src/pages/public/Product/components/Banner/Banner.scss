@@ -1,0 +1,111 @@
+.Banner-product {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  .box {
+    width: 100%;
+  }
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .car {
+      border-radius: 20px;
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .rtl {
+  }
+  .title {
+    margin-bottom: 10px;
+  }
+  .menu {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    .content {
+      top: -220px;
+      height: 200px;
+      width: 100%;
+      display: flex;
+      padding: 0 20px;
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      background-color: #0000002c;
+      border-radius: 20px;
+      .flex {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        gap: 5px;
+      }
+    }
+    .button-menu {
+      background-color: #000;
+      border: 2px solid #fff;
+      height: 50px;
+      // width: 30%;
+      font-family: "Inter";
+      font-size: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+      &-active {
+        border: 1px solid #f2c101;
+        background-color: #f2c101;
+        span {
+          color: #000 !important;
+          font-weight: 600;
+        }
+      }
+      &:hover {
+        border: 1px solid #f2c101;
+        background-color: #f2c101;
+        transform: scale(1.05);
+        span {
+          color: #000 !important;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .image {
+    border-radius: 40px;
+  }
+  @media (max-width: 768px) {
+    margin-top: 20px;
+    .title {
+      font-size: 25px;
+    }
+    .flex {
+      flex-direction: column;
+      .button-menu {
+        height: 40px;
+      }
+    }
+  }
+}
+
+.Product {
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    @media (max-width: 1260px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (max-width: 970px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+

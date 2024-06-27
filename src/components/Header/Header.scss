@@ -1,0 +1,190 @@
+body {
+  background-color: #000;
+}
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.App-global {
+}
+.Header {
+  a {
+    font-family: "Inter";
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 15px;
+      margin-right: 5px;
+    }
+  }
+  .pre-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    background-color: #2d2d2d;
+    .phone {
+      color: #f2c101;
+      svg {
+        margin-right: 5px;
+        path {
+          fill: #f2c101 !important;
+        }
+      }
+    }
+    .logos {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      a {
+        height: 20px;
+      }
+    }
+    .flex {
+      display: flex;
+      gap: 10px;
+    }
+    .len {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+    .ant-select {
+      height: 26px;
+    }
+    :where(.css-dev-only-do-not-override-3rel02).ant-select-outlined:not(
+        .ant-select-customize-input
+      )
+      .ant-select-selector {
+      border: 1px solid #f2c101;
+      background: transparent;
+    }
+    .flag {
+      height: auto;
+      width: 30px;
+      max-height: 20px;
+      margin-top: 9px;
+    }
+    .anticon {
+      color: #f2c101 !important;
+    }
+  }
+  .red {
+    width: 20px;
+    height: 20px;
+  }
+  .logow {
+    width: 20px;
+  }
+  .logo {
+    width: 150px;
+    margin-top: 10px;
+    // filter: invert(991);
+    height: auto;
+  }
+  .items {
+    display: flex;
+    // width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    padding: 0 20px;
+
+    .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .button-header {
+      width: 50px;
+      height: 40px;
+      background-color: transparent;
+      border-radius: 0;
+      border: solid 2px #fff;
+      padding: 0 !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.7s;
+      &:hover {
+        background-color: transparent !important;
+      }
+    }
+    .animate {
+      &:hover {
+        text-decoration: underline;
+        color: #f2c101;
+      }
+    }
+  }
+  .responsive {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    .responsive {
+      display: flex;
+    }
+    // display: none;
+    .items {
+      .flex {
+        display: none;
+      }
+    }
+    .phone {
+      display: none;
+    }
+  }
+}
+.ant-popover-arrow {
+  --antd-arrow-background-color: #4a4a4a;
+}
+.ant-popover-content {
+  width: 250px;
+  .ant-popover-title {
+    display: none;
+  }
+  .ant-popover-inner {
+    background-color: #4a4a4a;
+    padding: 15px 30px;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  a {
+    color: #f2c101;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .logow {
+    width: 20px;
+    // filter: invert(1);
+  }
+  .button-header {
+    width: 50px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 0;
+    border: solid 2px #f2c101;
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+  }
+}
+
