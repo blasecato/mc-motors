@@ -11,28 +11,31 @@ import ale from '@/assets/images/alemania.avif'
 import hun from '@/assets/images/hun.png'
 import rum from '@/assets/images/rum.png'
 import bul from '@/assets/images/bulgaria.svg'
+import { useTranslation } from 'react-i18next';
 
 const WhyChooseUs = () => {
+  const [t] = useTranslation("global")
+
   const items = [
-    { id: 1, text: "Mejores precios.", icon: precios },
-    { id: 2, text: "Agilidad.", icon: agilidad },
-    { id: 3, text: "Multiservicios.", icon: servicios },
-    { id: 4, text: "Seguridad.", icon: seguridad },
+    { id: 1, text: `${t("WhyChooseUs.item1")}`, icon: precios },
+    { id: 2, text: `${t("WhyChooseUs.item2")}`, icon: agilidad },
+    { id: 3, text: `${t("WhyChooseUs.item3")}`, icon: servicios },
+    { id: 4, text: `${t("WhyChooseUs.item4")}`, icon: seguridad },
   ]
   const listCities = [
-    { id: 1, name: "Romania", logo: rum },
-    { id: 3, name: "España", logo: esp },
-    { id: 2, name: "Luxemburgo", logo: lux },
-    { id: 5, name: "Alemania", logo: ale },
-    { id: 4, name: "Polonia", logo: pol },
-    { id: 6, name: "Colombia", logo: col },
-    { id: 7, name: "Hungría", logo: hun },
-    { id: 8, name: "Bulgaria", logo: bul },
+    { id: 1, name: `${t("WhyChooseUs.ro")}`, logo: rum },
+    { id: 3, name: `${t("WhyChooseUs.es")}`, logo: esp },
+    { id: 2, name: `${t("WhyChooseUs.lex")}`, logo: lux },
+    { id: 5, name: `${t("WhyChooseUs.al")}`, logo: ale },
+    { id: 4, name: `${t("WhyChooseUs.pol")}`, logo: pol },
+    { id: 6, name: `${t("WhyChooseUs.col")}`, logo: col },
+    { id: 7, name: `${t("WhyChooseUs.hu")}`, logo: hun },
+    { id: 8, name: `${t("WhyChooseUs.bul")}`, logo: bul },
   ]
   return (
     <div className="WhyChooseUs">
       <div className='container'>
-        <h1 className="title">Por que elegirnos?</h1>
+        <h1 className="title">{t("WhyChooseUs.title")}</h1>
         <div className="content">
           <div className="column text">
             <div className='list'>
@@ -56,7 +59,7 @@ const WhyChooseUs = () => {
       <div className='note'>
         <div className='container'>
           <p className='title'>
-            Importante:
+            {t("WhyChooseUs.important")}
           </p>
           <p className='subTitle'>
             Si deseas emprender tu negocio  automotor,
@@ -68,7 +71,7 @@ const WhyChooseUs = () => {
         </div>
       </div>
       <div className='container'>
-        <h1 className="title">Paises aliados</h1>
+        <h1 className="title">{t("WhyChooseUs.alliedCountries")}</h1>
         <div className='cities'>
           {listCities?.map((city) => (
             <div className='city' key={city.id}>

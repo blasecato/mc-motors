@@ -16,10 +16,10 @@ const Header = () => {
   const [t, i18n] = useTranslation("global")
   const options = [
     { id: 1, title: `${t("header.home")}`, logo: LogoPng, to: "/" },
-    { id: 2, title: "Nosotros", to: "#nosotros" },
-    { id: 3, title: "Nuestros carros", to: "/product" },
-    { id: 4, title: "Servicios", to: "#servicios" },
-    { id: 5, title: "Contacto", to: "#footer" },
+    { id: 2, title: `${t("header.aboutUs")}`, to: "#nosotros" },
+    { id: 3, title: `${t("header.ourCars")}`, to: "/product" },
+    { id: 4, title: `${t("header.services")}`, to: "#servicios" },
+    { id: 5, title: `${t("header.contact")}`, to: "#footer" },
   ]
   const content = (
     <div className='flex'>

@@ -14,9 +14,12 @@ import logomer from '@/assets/images/logomer.png'
 import logoporshe from '@/assets/images/logoporshe.png'
 import audilogo from '@/assets/images/audilogo.png'
 import bmwPng from '@/assets/images/logoBmw.png'
+import { useTranslation } from 'react-i18next';
 
 
 const Banner = () => {
+  const [t] = useTranslation("global")
+
   const listBrands = [
     { id: 1, name: "Tesla", logo: logoTPng },
     { id: 2, name: "Range rover", logo: logoRanger },
@@ -54,7 +57,7 @@ const Banner = () => {
           <div className='item'>
             <div className='item-content' style={{ borderColor: "rgb(254 214 3)" }}>
               <h3 className='subTitle' style={{ color: "rgb(254 214 3)" }}>M.C. Motors</h3>
-              <h1 className='title'>Los mejores carros usados en toda europa</h1>
+              <h1 className='title'>{t("header.banner1")}</h1>
               <Button className='button-banner' style={{ borderColor: "rgb(254 214 3)" }}>Hola</Button>
             </div>
             <img className='car' src={merPng} alt='car' />
@@ -62,7 +65,7 @@ const Banner = () => {
           <div className='item'>
             <div className='item-content' style={{ borderColor: "rgb(255, 255, 255)" }}>
               <h3 className='subTitle' style={{ color: "rgb(255, 255, 255)" }}>M.C. Motors</h3>
-              <h1 className='title'>Los mejores carros nuevos en toda europa</h1>
+              <h1 className='title'>{t("header.banner2")}</h1>
               <Button className='button-banner' style={{ borderColor: "rgb(255, 255, 255)" }}>Hola</Button>
             </div>
             <img className='car' src={volPng} alt='car' />
@@ -70,7 +73,7 @@ const Banner = () => {
           <div className='item'>
             <div className='item-content' style={{ borderColor: "rgb(140 0 5)" }}>
               <h3 className='subTitle' style={{ color: "rgb(140 0 5)" }}>M.C. Motors</h3>
-              <h1 className='title'>Los mejores repuestos originales</h1>
+              <h1 className='title'>{t("header.banner3")}</h1>
             </div>
             <img className='car' src={teslaPng} alt='car' />
           </div>

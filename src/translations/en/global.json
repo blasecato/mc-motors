@@ -1,6 +1,66 @@
 {
   "header": {
-    "home": "Home"
+    "home": "Home",
+    "aboutUs": "About us",
+    "ourCars": "Our cars",
+    "services": "Services",
+    "contact": "Contact",
+    "banner1": "The best used cars in all of Europe",
+    "banner2": "The best new cars in all of Europe",
+    "banner3": "The best original spare parts"
+  },
+  "welcome": {
+    "aboutUs": "About us"
+  },
+  "map": {
+    "languages": "We provide you with direct purchase and sales advice in 7 languages",
+    "ro": "Romanian",
+    "en": "English",
+    "es": "Spanish",
+    "al": "German",
+    "hu": "Hungarian",
+    "po": "Polish",
+    "fr": "French"
+  },
+  "OurAdvice": {
+    "title": "Process of our advice",
+    "item1": "Purchase of your new vehicle.",
+    "item2": "We help you with your credit.",
+    "item3": "We assist you with your vehicle insurance.",
+    "item4": "We contribute to the maintenance of your vehicle.",
+    "item5": "We help you with the transportation of heavy machinery.",
+    "item6": "We provide original car parts, if required by your new vehicle."
+  },
+  "Products": {
+    "title": "What are you looking for?",
+    "ourVehicles": "Our vehicles",
+    "Automobiles": "Automobiles",
+    "Vans": "Vans"
+  },
+  "WhyChooseUs": {
+    "title": "Why choose us?",
+    "item1": "Best prices.",
+    "item2": "Agility.",
+    "item3": "Multiservices.",
+    "item4": "Security.",
+    "important": "Important:",
+    "alliedCountries": "Allied countries",
+    "ro": "Romania",
+    "es": "Spain",
+    "lex": "Luxembourg",
+    "al": "Germany",
+    "pol": "Poland",
+    "col": "Colombia",
+    "hu": "Hungary",
+    "bul": "Bulgaria"
+  },
+  "footer": {
+    "ContactUs": "Contact us:",
+    "cellPhone": "Cell phone:",
+    "email": "Email:",
+    "location": "Location:",
+    "Networks": "Social networks:",
+    "foo": "M.C Trading Motors © 2024. Designed by M.C Trading Motors"
   }
 }
 

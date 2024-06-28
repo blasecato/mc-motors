@@ -8,16 +8,19 @@ import fra from '@/assets/images/fran.webp'
 import ale from '@/assets/images/alemania.avif'
 import hun from '@/assets/images/hun.png'
 import rum from '@/assets/images/rum.png'
+import { useTranslation } from "react-i18next"
 
 const PageMap = () => {
+  const [t] = useTranslation("global")
+
   const listCities = [
-    { id: 1, name: "Rumano", logo: rum, coordinates: [45.777792, 24.978009] },
-    { id: 4, name: "Ingles", logo: eng, coordinates: [54.065521, -1.458729] },
-    { id: 2, name: "Español", logo: esp, coordinates: [39.419019, -3.175400] },
-    { id: 3, name: "Aleman", logo: ale, coordinates: [50.849259, 10.538038] },
-    { id: 6, name: "Hungaro", logo: hun, coordinates: [46.819631, 19.480451] },
-    { id: 5, name: "Polaco", logo: pol, coordinates: [52.569981, 18.583384] },
-    { id: 7, name: "Frances", logo: fra, coordinates: [46.278261, 3.441174] },
+    { id: 1, name: `${t("map.ro")}`, logo: rum, coordinates: [45.777792, 24.978009] },
+    { id: 4, name: `${t("map.en")}`, logo: eng, coordinates: [54.065521, -1.458729] },
+    { id: 2, name: `${t("map.es")}`, logo: esp, coordinates: [39.419019, -3.175400] },
+    { id: 3, name: `${t("map.al")}`, logo: ale, coordinates: [50.849259, 10.538038] },
+    { id: 6, name: `${t("map.hu")}`, logo: hun, coordinates: [46.819631, 19.480451] },
+    { id: 5, name: `${t("map.po")}`, logo: pol, coordinates: [52.569981, 18.583384] },
+    { id: 7, name: `${t("map.fr")}`, logo: fra, coordinates: [46.278261, 3.441174] },
   ]
   return (
     <div className="Map container">
@@ -32,7 +35,7 @@ const PageMap = () => {
         </Map>
       </div>
       <div className="column column-text">
-        <h1 className="subTitle">Te brindamos asesorias de compra y venta directa en <span className="yell">7</span> idiomas</h1>
+        <h1 className="subTitle">{t("map.languages")}</h1>
         <div className="list">
           {listCities?.map((city) => (
             <div className="item" key={city.id}>
