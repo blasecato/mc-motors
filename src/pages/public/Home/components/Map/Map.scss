@@ -43,6 +43,19 @@
       &-text {
         padding: 0;
       }
+      .list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .item {
+          width: 50%;
+          margin: 10px 0 !important;
+          &:hover {
+            transform: scale(1);
+            margin: 10px 0 !important;
+          }
+        }
+      }
       &-map {
         div {
           max-height: 280px !important;

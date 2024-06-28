@@ -1,9 +1,9 @@
 import { Select } from 'antd';
 // import LogoPng from '@/assets/images/logoV.png'
 import LogoPng from '@/assets/images/logoGpt1.png'
-import LogoWPng from '@/assets/images/logoww.webp'
-import instaPng from '@/assets/images/insta.svg'
-import facePng from '@/assets/images/face.svg'
+import LogoWPng from '@/assets/images/Whatsapp-yellow.png'
+import instaPng from '@/assets/images/Instagram-yellow.svg'
+import facePng from '@/assets/images/Facebook-yellow.svg'
 import esPng from '@/assets/images/es.webp'
 import enPng from '@/assets/images/en.svg'
 import { Link } from 'react-router-dom';

@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
     gap: 100px;
     .card {
       display: flex;
@@ -50,7 +50,7 @@
           object-fit: contain;
         }
         .car-1 {
-          transform: scale(1);
+          transform: scale(1.2);
         }
       }
     }

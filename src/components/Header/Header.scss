@@ -61,12 +61,10 @@ body {
     .ant-select {
       height: 26px;
     }
-    :where(.css-dev-only-do-not-override-3rel02).ant-select-outlined:not(
-        .ant-select-customize-input
-      )
-      .ant-select-selector {
-      border: 1px solid #f2c101;
-      background: transparent;
+
+    .ant-select-selector {
+      border: 1px solid #f2c101 !important;
+      background: transparent !important;
     }
     .flag {
       height: auto;

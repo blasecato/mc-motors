@@ -1,5 +1,4 @@
 
-import PorschePng from '@/assets/images/repuesto.png'
 const Welcome = () => {
   return (
     <div className="Welcome container" id='nosotros'>
@@ -7,15 +6,13 @@ const Welcome = () => {
         <span className="label">Quiénes somos</span>
         <h1 className="title">M.C TRADING MOTORS</h1>
         <p className="body-regular">
-          Somos Una empresa Nacida en al este da Europa "Romania"¡ Aficionada a los
-          Motores Alcuano entre otros. Dedicada
-          a la Vanta y Exportación da vehiculos nuevos y usados de Alta Gama, y port de Carros originales
-          Prestamos un servicio Integral con Politicas da Honestidad y optimo
-          Servicio para la comodidad y seguridad de nuestros clientes con buen Suio
+          Somos Una empresa nacida en al este Europeo "Romania"¡ aficionada a los
+          motores alemanes entre otros.
+          Dedicada a la Vanta y exportación da vehiculos usados de alta gama y partes de carros originales.
+          <br />
+          Prestamos un servicio integral con politicas da honestidad y optimo
+          servicio para la comodidad y seguridad de nuestros clientes de buen gusto.
         </p>
-      </div>
-      <div className="column column-image">
-        <img src={PorschePng} alt='porsche' className='porsche' />
       </div>
     </div>
   )

@@ -1,5 +1,7 @@
 .WhyChooseUs {
+  margin-top: 100px;
   .container {
+    margin-top: 50px;
     padding: 20px;
   }
   .title {
@@ -144,10 +146,24 @@
         flex-wrap: wrap;
         margin-top: 0;
         padding-top: 0;
+        .subTitle {
+          font-size: 15px;
+        }
         .city {
           margin-bottom: 10px;
+          height: 120px;
+          width: 30%;
+          &:hover {
+            transform: scale(1);
+          }
+          .flag {
+            margin-top: 10px;
+          }
         }
       }
+    }
+    .title {
+      font-size: 40px;
     }
     .content .list {
       display: flex;
@@ -159,7 +175,12 @@
       width: 100%;
       .item {
         margin: 2.5px 0;
-        width: 49%;
+        width: 40%;
+        height: 110px;
+        gap: 0px;
+        .subTitle {
+          font-size: 12px;
+        }
       }
     }
     .note {

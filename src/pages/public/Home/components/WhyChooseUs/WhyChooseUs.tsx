@@ -10,6 +10,8 @@ import lux from '@/assets/images/lux.png'
 import ale from '@/assets/images/alemania.avif'
 import hun from '@/assets/images/hun.png'
 import rum from '@/assets/images/rum.png'
+import bul from '@/assets/images/bulgaria.svg'
+
 const WhyChooseUs = () => {
   const items = [
     { id: 1, text: "Mejores precios.", icon: precios },
@@ -18,13 +20,14 @@ const WhyChooseUs = () => {
     { id: 4, text: "Seguridad.", icon: seguridad },
   ]
   const listCities = [
-    { id: 1, name: "Rumanía", logo: rum },
+    { id: 1, name: "Romania", logo: rum },
     { id: 3, name: "España", logo: esp },
     { id: 2, name: "Luxemburgo", logo: lux },
     { id: 5, name: "Alemania", logo: ale },
     { id: 4, name: "Polonia", logo: pol },
     { id: 6, name: "Colombia", logo: col },
     { id: 7, name: "Hungría", logo: hun },
+    { id: 8, name: "Bulgaria", logo: bul },
   ]
   return (
     <div className="WhyChooseUs">
@@ -41,8 +44,10 @@ const WhyChooseUs = () => {
               ))}
             </div>
             <span className='subTitle'>
-              Los carros nuevos pierden su valor, unos
-              rapidamente hasta un 30% en el primer año, por esto tu opcion mas inteligente es adquirir un carro usado de alta gama, por un precio considerable de un modalo que conservan las mismas espacificaciones de uno nuevo.
+              Los carros nuevos pierden su valor muy
+              rapidamente hasta un 30% en el primer año,
+              por esto tu opcion mas inteligente es adquirir un carro usado de alta gama,
+              por un precio considerable de un modalo que conserva las mismas espacificaciones de uno nuevo.
             </span>
           </div>
         </div>
@@ -54,7 +59,9 @@ const WhyChooseUs = () => {
             Importante:
           </p>
           <p className='subTitle'>
-            Si deseas emprender tu negocio  automotor, te ofrecemos precios mayoristas por la compra de varios Vehículos; con toda la asesoría personalizada de exportacion, Aduanas, el mercado en la Unión Europea y Latino América.
+            Si deseas emprender tu negocio  automotor,
+            te ofrecemos precios mayoristas por la compra de varios Vehículos;
+            con toda la asesoría personalizada en exportacion, aduanas y el mercado en la Unión Europea y Latino América.
             <br /><br />
             Contactanos...
           </p>

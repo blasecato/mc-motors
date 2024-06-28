@@ -3,7 +3,7 @@ import Header from '@/components/Header/Header'
 import { Button, Carousel } from 'antd';
 import Slider from "react-slick";
 import teslaPng from '@/assets/images/Red-Tesla-PNG-Images.png'
-import audiPng from '@/assets/images/Audi.png'
+// import audiPng from '@/assets/images/Audi.png'
 import volPng from '@/assets/images/Volkswagen.png'
 import merPng from '@/assets/images/merc.png'
 
@@ -53,36 +53,35 @@ const Banner = () => {
         <Carousel arrows autoplay autoplaySpeed={10000}>
           <div className='item'>
             <div className='item-content' style={{ borderColor: "rgb(254 214 3)" }}>
-              <h3 className='subTitle' style={{ color: "rgb(254 214 3)" }}>Texto 1 va aqui</h3>
-              <h1 className='title'>Texto big titulo del banner</h1>
+              <h3 className='subTitle' style={{ color: "rgb(254 214 3)" }}>M.C. Motors</h3>
+              <h1 className='title'>Los mejores carros usados en toda europa</h1>
               <Button className='button-banner' style={{ borderColor: "rgb(254 214 3)" }}>Hola</Button>
             </div>
             <img className='car' src={merPng} alt='car' />
           </div>
           <div className='item'>
             <div className='item-content' style={{ borderColor: "rgb(255, 255, 255)" }}>
-              <h3 className='subTitle' style={{ color: "rgb(255, 255, 255)" }}>Texto 1 va aqui</h3>
-              <h1 className='title'>Texto big titulo del banner</h1>
+              <h3 className='subTitle' style={{ color: "rgb(255, 255, 255)" }}>M.C. Motors</h3>
+              <h1 className='title'>Los mejores carros nuevos en toda europa</h1>
               <Button className='button-banner' style={{ borderColor: "rgb(255, 255, 255)" }}>Hola</Button>
             </div>
             <img className='car' src={volPng} alt='car' />
           </div>
           <div className='item'>
             <div className='item-content' style={{ borderColor: "rgb(140 0 5)" }}>
-              <h3 className='subTitle' style={{ color: "rgb(140 0 5)" }}>Texto 1 va aqui</h3>
-              <h1 className='title'>Texto big titulo del banner</h1>
-              <Button className='button-banner' style={{ borderColor: "rgb(140 0 5)", color: "rgb(140 0 5)" }}>Hola</Button>
+              <h3 className='subTitle' style={{ color: "rgb(140 0 5)" }}>M.C. Motors</h3>
+              <h1 className='title'>Los mejores repuestos originales</h1>
             </div>
             <img className='car' src={teslaPng} alt='car' />
           </div>
-          <div className='item'>
+          {/* <div className='item'>
             <div className='item-content' style={{ borderColor: "rgb(140, 140, 140)" }}>
-              <h3 className='subTitle' style={{ color: "rgb(140, 140, 140)" }}>Texto 1 va aqui</h3>
+              <h3 className='subTitle' style={{ color: "rgb(140, 140, 140)" }}>M.C. Motors</h3>
               <h1 className='title'>Texto big titulo del banner</h1>
               <Button className='button-banner' style={{ borderColor: "rgb(140, 140, 140)", color: "rgb(140, 140, 140)" }}>Hola</Button>
             </div>
             <img className='car' src={audiPng} alt='car' />
-          </div>
+          </div> */}
         </Carousel>
       </div>
       <div className='brands container'>

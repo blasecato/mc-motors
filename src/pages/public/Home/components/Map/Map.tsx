@@ -33,12 +33,14 @@ const PageMap = () => {
       </div>
       <div className="column column-text">
         <h1 className="subTitle">Te brindamos asesorias de compra y venta directa en <span className="yell">7</span> idiomas</h1>
-        {listCities?.map((city) => (
-          <div className="item" key={city.id}>
-            <img src={city.logo} width={30} height={20} alt='flag' />
-            <span className="body-regular">{city.name}</span>
-          </div>
-        ))}
+        <div className="list">
+          {listCities?.map((city) => (
+            <div className="item" key={city.id}>
+              <img src={city.logo} width={30} height={20} alt='flag' />
+              <span className="body-regular">{city.name}</span>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )
