@@ -58,7 +58,7 @@ const Banner = () => {
             <div className='item-content' style={{ borderColor: "rgb(254 214 3)" }}>
               <h3 className='subTitle' style={{ color: "rgb(254 214 3)" }}>M.C. Motors</h3>
               <h1 className='title'>{t("header.banner1")}</h1>
-              <Button className='button-banner' style={{ borderColor: "rgb(254 214 3)" }}>Hola</Button>
+              <Button className='button-banner' style={{ borderColor: "rgb(254 214 3)" }}>{t("header.seeMore")}</Button>
             </div>
             <img className='car' src={merPng} alt='car' />
           </div>
@@ -66,7 +66,7 @@ const Banner = () => {
             <div className='item-content' style={{ borderColor: "rgb(255, 255, 255)" }}>
               <h3 className='subTitle' style={{ color: "rgb(255, 255, 255)" }}>M.C. Motors</h3>
               <h1 className='title'>{t("header.banner2")}</h1>
-              <Button className='button-banner' style={{ borderColor: "rgb(255, 255, 255)" }}>Hola</Button>
+              <Button className='button-banner' style={{ borderColor: "rgb(255, 255, 255)" }}>{t("header.seeMore")}</Button>
             </div>
             <img className='car' src={volPng} alt='car' />
           </div>
@@ -81,7 +81,7 @@ const Banner = () => {
             <div className='item-content' style={{ borderColor: "rgb(140, 140, 140)" }}>
               <h3 className='subTitle' style={{ color: "rgb(140, 140, 140)" }}>M.C. Motors</h3>
               <h1 className='title'>Texto big titulo del banner</h1>
-              <Button className='button-banner' style={{ borderColor: "rgb(140, 140, 140)", color: "rgb(140, 140, 140)" }}>Hola</Button>
+              <Button className='button-banner' style={{ borderColor: "rgb(140, 140, 140)", color: "rgb(140, 140, 140)" }}>Ver más</Button>
             </div>
             <img className='car' src={audiPng} alt='car' />
           </div> */}
