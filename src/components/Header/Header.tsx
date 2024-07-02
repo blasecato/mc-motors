@@ -6,7 +6,7 @@ import instaPng from '@/assets/images/Instagram-yellow.svg'
 import facePng from '@/assets/images/Facebook-yellow.svg'
 import esPng from '@/assets/images/es.webp'
 import enPng from '@/assets/images/en.svg'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Button, Popover } from 'antd';
 import { useTranslation } from 'react-i18next';
 
@@ -14,10 +14,13 @@ const { Option } = Select
 
 const Header = () => {
   const [t, i18n] = useTranslation("global")
+  const location = useLocation();
+
   const options = [
     { id: 1, title: `${t("header.home")}`, logo: LogoPng, to: "/" },
-    { id: 2, title: `${t("header.aboutUs")}`, to: "#nosotros" },
-    { id: 3, title: `${t("header.ourCars")}`, to: "/product" },
+    { id: 2, title: `${t("header.ourCars")}`, to: "/product" },
+
+    { id: 3, title: `${t("header.aboutUs")}`, to: "#nosotros" },
     { id: 4, title: `${t("header.services")}`, to: "#servicios" },
     { id: 5, title: `${t("header.contact")}`, to: "#footer" },
   ]
@@ -40,6 +43,7 @@ const Header = () => {
   const handleChange = (value: string) => {
     i18n.changeLanguage(value)
   };
+  console.log("location", location);
 
   return (
     <div className="Header" id="top">
@@ -81,7 +85,23 @@ const Header = () => {
         </Link>
         <div className='flex'>
           {options?.map((item) => (
-            <a href={item.to} key={item.id} className='animate'> {item.title}</a>
+            <>
+              {item?.id === 1 && <Link to={item.to} key={item.id} className='animate'> {item.title}</Link>}
+              {item?.id === 2 && <Link to={item.to} key={item.id} className='animate'> {item.title}</Link>}
+              {location?.pathname !== "/product" ?
+                <>
+                  {item?.id === 3 && <a href={item.to} key={item.id} className='animate'> {item.title}</a>}
+                  {item?.id === 4 && <a href={item.to} key={item.id} className='animate'> {item.title}</a>}
+                  {item?.id === 5 && <a href={item.to} key={item.id} className='animate'> {item.title}</a>}
+                </>
+                :
+                <>
+                  {item?.id === 3 && <a href={`./${item.to}`} key={item.id} className='animate'> {item.title}</a>}
+                  {item?.id === 4 && <a href={`./${item.to}`} key={item.id} className='animate'> {item.title}</a>}
+                  {item?.id === 5 && <a href={`./${item.to}`} key={item.id} className='animate'> {item.title}</a>}
+                </>
+              }
+            </>
           ))}
           <a target='_blank' href="whatsapp://send?text=Hello World!&phone=+40745105043" className='button-header'>
             <img src={LogoWPng} alt='logo' className='logow' />
