@@ -78,6 +78,9 @@ import volkswagenNegro7 from '@/assets/images/automoviles/volkswagen_negro/volks
 import volkswagenNegro8 from '@/assets/images/automoviles/volkswagen_negro/volkswagen_negro8.jpg'
 import volkswagenNegro9 from '@/assets/images/automoviles/volkswagen_negro/volkswagen_negro9.jpg'
 
+
+
+
 const dataAutomoviles = [
   {
     id: 2,

@@ -62,6 +62,17 @@
     "location": "Location:",
     "Networks": "Social networks:",
     "foo": "M.C Trading Motors © 2024. Designed by M.C Trading Motors"
+  },
+  "ourCars": {
+    "ourCars": "Our cars",
+    "ourCars1": "Our automobiles",
+    "ourCars2": "Our trucks",
+    "all": "All",
+    "automobiles": "Automobiles",
+    "vans": "trucks",
+    "model": "Model",
+    "color": "Color",
+    "used": "Used"
   }
 }
 

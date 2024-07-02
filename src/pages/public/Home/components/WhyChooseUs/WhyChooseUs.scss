@@ -70,26 +70,69 @@
     }
   }
   .note {
-    border-radius: 10px;
-    width: 100%;
-    padding: 70px 20px;
-    margin-top: 30px;
-    background: linear-gradient(rgba(0, 0, 0, 0.903), rgba(0, 0, 0, 0.583)),
-      url("src/assets/images/fondo1.webp") center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: left;
+    padding: 0 20px;
     .container {
+      border-radius: 10px;
+      width: 70%;
+      padding: 60px 20px;
+      padding-top: 20px;
+      height: 400px;
+      padding-bottom: 170px;
+      margin-top: 30px;
+      background-image: url("src/assets/images/bannerc5.png");
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: left;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      @media (max-width: 768px) {
+        background-image: url("src/assets/images/bannerc6.png");
+        padding: 60px 60px;
+        padding-top: 20px;
+        height: 620px;
+        width: 100%;
+      }
     }
     .sub {
       color: #f2c101;
     }
+    .title {
+      color: #ffffff;
+      margin-bottom: 0px;
+      margin-top: 140px;
+      @media (max-width: 768px) {
+        margin-top: -50px;
+        margin-bottom: 100px;
+      }
+    }
+
     .subTitle {
-      max-width: 70%;
+      max-width: 90%;
+      color: #000000;
+      margin-right: 20px;
+      font-weight: 600;
+      font-size: 20px;
+      margin-top: 150px;
+      @media (max-width: 1290px) {
+        max-width: 100%;
+        margin-right: 50px;
+        font-size: 16px;
+      }
+      @media (max-width: 970px) {
+        font-size: 15px;
+      }
+      @media (max-width: 768px) {
+        margin: 0px;
+        font-size: 17px;
+        margin-top: 10px;
+      }
+    }
+    .contac {
+      margin-right: 50px;
+      margin-top: 20px;
     }
   }
   .cities {
@@ -185,7 +228,7 @@
     }
     .note {
       .container {
-        padding: 0;
+        // padding: 0;
         .subTitle {
           max-width: 100%;
         }

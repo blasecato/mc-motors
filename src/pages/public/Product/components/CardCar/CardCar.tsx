@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import Slider from 'react-slick'
 
 interface imagesType {
@@ -20,6 +21,8 @@ interface Props {
   data: carType
 }
 const CardCar = ({ data }: Props) => {
+  const [t] = useTranslation("global")
+
   const settings = {
     dots: false,
     infinite: true,
@@ -40,8 +43,8 @@ const CardCar = ({ data }: Props) => {
       </Slider>
       <div className='item'>
         <h4 className='name'>{data.name}</h4>
-        <p className='item-text'>MODEL: <span>{data.model}</span></p>
-        <p className='item-text'>COLOR: <span>{data?.color}</span></p>
+        <p className='item-text'>{t("ourCars.model")}: <span>{data.model}</span></p>
+        <p className='item-text'>{t("ourCars.color")}: <span>{data?.color}</span></p>
         <p className='item-text'>{data.type}</p>
         <p className='item-text'>{data.hp}</p>
         <p className='item-text'>{data.use}</p>

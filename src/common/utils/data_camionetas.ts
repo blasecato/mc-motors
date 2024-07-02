@@ -41,7 +41,7 @@ import mercedesRojo6 from '@/assets/images/Camionetas/mercedes_rojo/mercedes_roj
 import mercedesRojo7 from '@/assets/images/Camionetas/mercedes_rojo/mercedes_rojo7.jpg'
 import mercedesRojo8 from '@/assets/images/Camionetas/mercedes_rojo/mercedes_rojo8.jpg'
 import mercedesRojo9 from '@/assets/images/Camionetas/mercedes_rojo/mercedes_rojo9.jpg'
-import mercedesRojo10 from '@/assets/images/Camionetas/mercedes_rojo/mercedes_rojo10.jpg'
+// import mercedesRojo10 from '@/assets/images/Camionetas/mercedes_rojo/mercedes_rojo10.jpg'
 
 // range rover
 import range_rover1 from '@/assets/images/Camionetas/range_rover/range_rover1.jpg'
@@ -118,7 +118,7 @@ const dataCamionetas = [
       { id: 7, image: mercedesRojo7 },
       { id: 8, image: mercedesRojo8 },
       { id: 9, image: mercedesRojo9 },
-      { id: 10, image: mercedesRojo10 },
+      // { id: 10, image: mercedesRojo10 },
     ]
   },
   {
