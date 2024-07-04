@@ -8,10 +8,12 @@
     "banner1": "Los mejores carros usados en toda europa",
     "banner2": "Los mejores carros nuevos en toda europa",
     "banner3": "Los mejores repuestos originales",
-    "seeMore": "Ver más"
+    "seeMore": "Ver más",
+    "mss": "Bienvenidos a M.C. Motores, ¿cómo podemos asesorarte hoy?"
   },
   "welcome": {
-    "aboutUs": "Quiénes somos"
+    "aboutUs": "Quiénes somos",
+    "text": "Somos una empresa con sede en Europa del Este, en Rumania, apasionada por los motores alemanes y otros modelos destacados. Nos especializamos en la venta y exportación de vehículos usados de alta gama, así como en la distribución de partes originales para automóviles. Nuestra misión es ofrecer un servicio integral basado en principios de honestidad y excelencia, asegurando la satisfacción, comodidad y seguridad de nuestros clientes. Facilitamos a nuestros clientes acceso a productos de calidad y asesoramiento especializado en múltiples idiomas, incluyendo rumano, inglés, español, alemán, húngaro, polaco y francés."
   },
   "map": {
     "languages": "Te brindamos asesorias de compra y venta directa en 7 idiomas",
@@ -45,6 +47,7 @@
     "item3": "Multiservicios.",
     "item4": "Seguridad.",
     "important": "Importante:",
+    "textImportant": "¿Sabías que los vehículos nuevos pueden perder hasta un 30% de su valor en el primer año? Esta es una de las razones por las cuales adquirir un vehículo usado de alta gama puede ser una opción inteligente. En nuestra selección de vehículos usados, garantizamos mantener las mismas especificaciones y calidad que encontrarías en un modelo nuevo, pero a un precio mucho más accesible. Esto te permite disfrutar de tecnología avanzada y prestaciones de lujo sin pagar el precio completo de un vehículo nuevo.",
     "alliedCountries": "Paises aliados",
     "ro": "Romania",
     "es": "España",

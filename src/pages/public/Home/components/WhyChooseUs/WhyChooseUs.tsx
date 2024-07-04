@@ -62,14 +62,12 @@ const WhyChooseUs = () => {
             {t("WhyChooseUs.important")}
           </p>
           <p className='subTitle'>
-            Si deseas emprender tu negocio  automotor,
-            te ofrecemos precios mayoristas por la compra de varios Vehículos;
-            con toda la asesoría personalizada en exportacion, aduanas y el mercado en la Unión Europea y Latino América.
+            {t("WhyChooseUs.textImportant")}
             <br />
           </p>
-          <p className='subTitle contac'>
+          {/* <p className='subTitle contac'>
             Contactanos...
-          </p>
+          </p> */}
         </div>
       </div>
       <div className='container'>

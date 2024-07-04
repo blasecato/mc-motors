@@ -5,16 +5,18 @@
     "ourCars": "Our cars",
     "services": "Services",
     "contact": "Contact",
-    "banner1": "The best used cars in all of Europe",
-    "banner2": "The best new cars in all of Europe",
+    "banner1": "Best used cars in Europe",
+    "banner2": "Best new cars in Europe",
     "banner3": "The best original spare parts",
-    "seeMore": "See more"
+    "seeMore": "See more",
+    "mss": "Welcome to M.C. Motors, how can we advise you today?"
   },
   "welcome": {
-    "aboutUs": "About us"
+    "aboutUs": "About us",
+    "text": "We are a company based in Eastern Europe, in Romania, passionate about German engines and other distinguished models. We specialize in the sale and export of high-end used vehicles, as well as the distribution of original automobile parts. Our mission is to offer a complete service based on principles of honesty and excellence, ensuring the satisfaction, comfort, and safety of our clients. We facilitate access to quality products and specialized advice for our clients in multiple languages, including Romanian, English, Spanish, German, Hungarian, Polish, and French."
   },
   "map": {
-    "languages": "We provide you with direct purchase and sales advice in 7 languages",
+    "languages": "We offer direct purchasing and sales advice in 7 languages",
     "ro": "Romanian",
     "en": "English",
     "es": "Spanish",
@@ -24,19 +26,19 @@
     "fr": "French"
   },
   "OurAdvice": {
-    "title": "Process of our advice",
-    "item1": "Purchase of your new vehicle.",
-    "item2": "We help you with your credit.",
-    "item3": "We assist you with your vehicle insurance.",
-    "item4": "We contribute to the maintenance of your vehicle.",
-    "item5": "We help you with the transportation of heavy machinery.",
-    "item6": "We provide original car parts, if required by your new vehicle."
+    "title": "Advisory Process in:",
+    "item1": "Acquisition of your new vehicle.",
+    "item2": "Assistance in obtaining credit.",
+    "item3": "Insurance management for your vehicle.",
+    "item4": "Maintenance and technical support for your vehicle.",
+    "item5": "Logistics for heavy machinery transportation.",
+    "item6": "Supply of original parts, according to your vehicle's needs."
   },
   "Products": {
     "title": "What are you looking for?",
     "ourVehicles": "Our vehicles",
-    "Automobiles": "Automobiles",
-    "Vans": "Vans"
+    "Automobiles": "CARS",
+    "Vans": "SUVS"
   },
   "WhyChooseUs": {
     "title": "Why choose us?",
@@ -45,6 +47,7 @@
     "item3": "Multiservices.",
     "item4": "Security.",
     "important": "Important:",
+    "textImportant": "Did you know that new vehicles can lose up to 30% of their value in the first year? This is one of the reasons why purchasing a high-end used vehicle can be a smart choice. In our selection of used vehicles, we guarantee to maintain the same specifications and quality you would find in a new model, but with an accessible price. This allows you to enjoy advanced technology and luxury features without paying the full price of a new vehicle.",
     "alliedCountries": "Allied countries",
     "ro": "Romania",
     "es": "Spain",
@@ -64,12 +67,12 @@
     "foo": "M.C Trading Motors © 2024. Designed by M.C Trading Motors"
   },
   "ourCars": {
-    "ourCars": "Our cars",
-    "ourCars1": "Our automobiles",
-    "ourCars2": "Our trucks",
+    "ourCars": "Our CARS",
+    "ourCars1": "Our CARS",
+    "ourCars2": "Our SUVS",
     "all": "All",
-    "automobiles": "Automobiles",
-    "vans": "trucks",
+    "automobiles": "CARS",
+    "vans": "SUVS",
     "model": "Model",
     "color": "Color",
     "used": "Used"
