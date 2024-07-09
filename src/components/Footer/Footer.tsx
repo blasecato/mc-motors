@@ -1,4 +1,4 @@
-import LogoPng from '@/assets/images/logoV.png'
+import LogoPng from '@/assets/images/logoGpt1.png'
 import LogoWPng from '@/assets/images/logoww.webp'
 import instaPng from '@/assets/images/insta.svg'
 import facePng from '@/assets/images/face.svg'

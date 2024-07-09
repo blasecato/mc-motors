@@ -47,10 +47,11 @@ const WhyChooseUs = () => {
               ))}
             </div>
             <span className='subTitle'>
-              Los carros nuevos pierden su valor muy
+              {t("WhyChooseUs.text")}
+              {/* Los carros nuevos pierden su valor muy
               rapidamente hasta un 30% en el primer año,
               por esto tu opcion mas inteligente es adquirir un carro usado de alta gama,
-              por un precio considerable de un modalo que conserva las mismas espacificaciones de uno nuevo.
+              por un precio considerable de un modalo que conserva las mismas espacificaciones de uno nuevo. */}
             </span>
           </div>
         </div>
