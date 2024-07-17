@@ -72,67 +72,48 @@
   .note {
     padding: 0 20px;
     .container {
-      border-radius: 10px;
-      width: 70%;
-      padding: 60px 20px;
-      padding-top: 20px;
-      height: 500px;
-      padding-bottom: 170px;
-      margin-top: 30px;
-      background-image: url("src/assets/images/bannerc5.png");
-      background-size: 100% 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      text-align: left;
+      position: relative;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      flex-direction: column;
-      @media (max-width: 768px) {
-        background-image: url("src/assets/images/bannerc6.png");
-        padding: 30px 30px;
-        padding-top: 20px;
-        height: 820px;
-        width: 100%;
+      background-color: #fff;
+      max-width: 1000px;
+      padding: 20px 30px;
+      border-radius: 6px;
+      .banner {
+        width: 440px;
+        height: 100%;
+      }
+      .subTitle {
+        font-size: 18px;
+        z-index: 10;
+        width: 50%;
+        right: 20px;
+        border: 3px solid #f2c101;
+        border-color: -moz-linear-gradient(top, #f2c101, #f2c101);
+        padding: 20px;
+        color: #000000;
+        font-weight: 600;
+        border-radius: 10px;
       }
     }
     .sub {
       color: #f2c101;
     }
-    .title {
-      color: #ffffff;
-      margin-bottom: 0px;
-      margin-top: 140px;
-      @media (max-width: 768px) {
-        margin-top: -50px;
-        margin-bottom: 100px;
-      }
-    }
-
-    .subTitle {
-      max-width: 90%;
-      color: #000000;
-      margin-right: 20px;
-      font-weight: 600;
-      font-size: 20px;
-      margin-top: 200px;
-      @media (max-width: 1290px) {
-        max-width: 100%;
-        margin-right: 50px;
-        font-size: 16px;
-      }
-      @media (max-width: 970px) {
-        font-size: 15px;
-      }
-      @media (max-width: 768px) {
-        margin: 0px;
-        font-size: 17px;
-        margin-top: 10px;
-      }
-    }
     .contac {
       margin-right: 50px;
       margin-top: 20px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        padding: 0 20px;
+        padding-bottom: 20px;
+        .subTitle {
+          width: 100%;
+          font-size: 15px;
+        }
+      }
     }
   }
   .cities {

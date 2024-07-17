@@ -11,6 +11,7 @@ import ale from '@/assets/images/alemania.avif'
 import hun from '@/assets/images/hun.png'
 import rum from '@/assets/images/rum.png'
 import bul from '@/assets/images/bulgaria.svg'
+import bannerPng from '@/assets/images/bannerc9.svg'
 import { useTranslation } from 'react-i18next';
 
 const WhyChooseUs = () => {
@@ -48,10 +49,6 @@ const WhyChooseUs = () => {
             </div>
             <span className='subTitle'>
               {t("WhyChooseUs.text")}
-              {/* Los carros nuevos pierden su valor muy
-              rapidamente hasta un 30% en el primer año,
-              por esto tu opcion mas inteligente es adquirir un carro usado de alta gama,
-              por un precio considerable de un modalo que conserva las mismas espacificaciones de uno nuevo. */}
             </span>
           </div>
         </div>
@@ -59,16 +56,12 @@ const WhyChooseUs = () => {
       </div>
       <div className='note'>
         <div className='container'>
-          <p className='title title-important'>
-            {t("WhyChooseUs.important")}
-          </p>
+          <img src={bannerPng} className='banner' alt='banner' />
+          <div className='box'></div>
           <p className='subTitle'>
             {t("WhyChooseUs.textImportant")}
             <br />
           </p>
-          {/* <p className='subTitle contac'>
-            Contactanos...
-          </p> */}
         </div>
       </div>
       <div className='container'>
